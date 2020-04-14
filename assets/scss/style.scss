@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    nav {
+        display: flex;
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-left: 20px;
+            li {
+                padding-left: 10px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+header .log-section {
+    display: flex;
+    align-items: center;
+    a {
+        padding: 0 10px;
+        color: black;
+    }
+}
+
+main {
+    margin-top: 10px;
+    background-color: white;
+    p {
+    text-align: center;
+    }
+}
+
+main .form-signup {
+    text-align: center;
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+}
+
